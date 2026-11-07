@@ -53,4 +53,16 @@ test("não deve permitir empréstimo para usuário não cadastrado", () => {
 
     expect(podeEmprestar(usuario)).toBe(false);
 });
+
+test ("deve permitir emprestimo quando houver 2 emprestimos ativos", ()=> {
+    const usuario = {
+        cadastrado: true,
+        emprestimosAtrasados: 0,
+        emprestimosAtivos: 2,
+        livroDisponivel: true,
+    };
+
+    expect(podeEmprestar(usuario)).toBe(true);
+});
+
 });
