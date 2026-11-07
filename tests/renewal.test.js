@@ -1,4 +1,4 @@
-const { calcularMulta } = require("../src/fine");
+const { calcularMulta } = require("../src/renewal");
 
 describe("calcularMulta", () => {
 
