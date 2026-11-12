@@ -1,14 +1,12 @@
 {
   "name": "codigo-confiavel-workshop",
   "version": "1.0.0",
-  "description": "Projeto prático do minicurso Código confiável na era da IA: TDD, testes e CI.",
+  "description": "Projeto prático do minicurso **Código confiável na era da IA: TDD, testes e CI**.",
   "main": "index.js",
-"scripts": {
-  "test": "jest",
-  "test:watch": "jest --watch",
-  "test:coverage": "jest --coverage",
-  "test:verbose": "jest --verbose"
-},
+  "scripts": {
+    "test": "jest"
+
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alexandre-barbosa1/codigo-confiavel-workshop.git"
